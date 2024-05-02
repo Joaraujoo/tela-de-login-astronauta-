@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronauta</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo/media-query.css">
+</head>
+<body>
+    <main>
+        <div id="esquerda">
+            <h1>Faça login</h1>
+            <h1>E entre para o nosso time</h1>
+            <img src="imagens/astronaut-animate.svg" alt="Astronauta">
+        </div>
+
+        <div id="direita">
+            <form action="login.php" method="post">
+                <h1>Login</h1>
+                <input type="text" name="Usuario" id="iusuario" placeholder="Usuario" required>
+
+                <input type="password" name="senha" id="isenha" placeholder="Senha" required minlength="8" maxlength="18">
+
+                <p><input type="button" value="Entrar"></p>
+            </form>
+        </div>
+    </main>
+    
+</body>
+</html>

@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #1F1B30;
+    overflow: hidden
+}
+
+main {
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    color: #83ECC8;
+    line-height: 15px;
+    font-size: 25pt;
+    font-family: "noto sans", sans-serif;
+}
+
+img {
+    width: 30vw;
+    margin-top: 20px;
+}
+
+div#direita{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.562);
+    width: 30vw;
+    height: 53vh;
+    border-radius: 20px;
+    background-color: #2F2645; 
+}
+
+div#direita h1 {
+    font-size: 20pt;
+    margin-top: 40px;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    background-color: #524473;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+    padding: 10px;
+    width: 25vw;
+    margin-top: 20px;
+}
+
+input[type="button"] {
+    cursor: pointer;
+    background-color: #83ECC8;
+    box-shadow: 0px 0px 1px #83ECC8;
+    margin-top: 20px;
+    color: #1F1B30;
+    font-weight: bold;
+    font-family: "noto sans", sans-serif;
+
+}
+
+input[type="button"]:hover {
+    background-color: #3decaf;
+    color: white;
+}
+
